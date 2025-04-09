@@ -1,0 +1,24 @@
+aiogram==3.7.0
+sqlalchemy[asyncio]==2.0.30
+alembic==1.13.1 # Для миграций
+python-dotenv==1.0.1
+kerykeion==4.25.4
+openai==1.30.1
+yookassa==3.5.0
+httpx==0.27.0
+geopy==2.4.1 # Для геокодинга
+timezonefinder[numba]>=6.2.0 # Для определения таймзоны
+apscheduler==3.10.4
+aiosqlite==0.20.0
+pillow>=9.0.0 # Для Kerykeion/Matplotlib
+matplotlib>=3.5.0 # Для Kerykeion
+pytz==2024.2 # Для таймзон
+babel==2.15.0 # Для локализации (месяцы)
+cairosvg>=2.5.0 # Для конвертации SVG в PNG
+aiohttp==3.9.5 # Для веб-сервера (вебхуки)
+pydantic>=2.4.1,<2.8
+pydantic[email]>=2.0
+pydantic-settings==2.3.3 # Для загрузки настроек из .env
+sentry-sdk[aiohttp]==2.0.1 # Для мониторинга ошибок
+pytest>=7.0.0 # Для тестов (нужно будет написать)
+pytest-asyncio>=0.20.0 # Для асинхронных тестов
